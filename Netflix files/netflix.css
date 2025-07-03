@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    height: 700px;
+    background-image: url("/assets/hero\ image.jpg");
+    background-size: cover;
+    position: relative;
+}
+.main-box{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    position: absolute;
+    top: 0;
+}
+nav{
+    height: 100px;
+    max-width: 80%;
+    display: flex;
+    margin: auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    height: 80px;
+    width: 200px;
+    background-image: url("/assets/Netflix\ logo.png");
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    color: red;
+}
+select{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size:  18px;
+    position: relative;
+    z-index: 10;
+}
+select:focus{
+    border: 2px solid white;
+}
+button{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size:  16px;
+    position: relative;
+    z-index: 10;
+}
+.main-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 1.3rem ;
+}
+.email-box{
+    height: 52px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.email{
+    height: 50px;
+    width: 450px;
+    color: white;
+    background-color: rgba(65, 64, 64,0.44);
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 87, 87);
+    padding-left: 20px;
+    
+}
+.get{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    border: 2px solid red;
+}
+.get a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    height: 1650px;
+    background-color: black;
+    opacity: 1;
+}
+.movies{
+    border-top: 5px solid red;
+    border-radius: 40%;
+}
+.trending{
+    height: 100px;
+    font-size: 2rem;
+    color: white;
+    margin:100px 0px 0px 150px;
+}
+.box-photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 250px;
+    width: 190px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(249, 248, 250);
+    border-radius: 10px;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.box1{
+    margin-left:100px;
+}
+.box8{
+    margin-right: 100px;
+}
+.for{
+    color: white;
+    height: 60px;
+    font-size: 2rem;
+    margin: 60px 0px 0px 100px;
+}
+.features{
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.features-box{
+    height: 300px;
+    width: 240px;
+    border-radius: 15px;
+    background-color: rgb(11, 2, 39);
+    border: 1px solid white;
+    padding:10px ;
+}
+.f1{
+    margin-left: 80px;
+}
+.f2{
+    margin-right: 80px;
+}
+.hh2{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: 100;
+    text-align: left;
+    padding: 10px;
+}
+.pp{
+    font-size: 1.02rem;
+    margin-top:20px;
+    text-align: left;
+}
+i{
+    font-size: 3rem;
+    color: rgb(175, 2, 2);
+    margin-top: 80px;
+    margin-left: 150px;
+}
+#r{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#l{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+#e{
+    margin-top: 60px;
+    margin-right:150px ;
+}
+.hhh2{
+    font-size: 2rem;
+    color: white;
+    margin: 20px 0 0 30px;
+    font-weight: 100;
+    text-align: left;
+    padding: 20px;
+}
+.question-box{
+    height: 600px;
+}
+.questions{
+    height: 80px;
+    width:1000px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: flex;
+    margin: 10px 0 0 150px;
+}
+#qa{
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 25px 0 10px 30px;
+    font-size: 1.8rem;
+}
+.asked-questions{
+    margin: 20px 0 0 100px;
+}
+footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-weight: lighter;
+}
+.email-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email-address{
+    height: 50px;
+    width: 600px;
+    color: white;
+    background-color: rgba(65, 64, 64,0.44);
+    font-size: 19px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 87, 87);
+    margin: 20px 0 0 0 ;
+    padding-left: 20px;
+}
+#btn{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 20px 0 0 5px;
+    font-size: 1.5rem;
+    border: 2px solid red;
+}
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+.call{
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 40px 0 0 150px;
+    color: rgb(230, 227, 227);
+}
+.learn-more{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.call a{
+    text-decoration: none;
+    color: rgb(230, 226, 226);
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(230, 227, 227);
+    font-size: 1.1rem;
+    padding: 5px;
+}
+ul{
+    margin:0 30px 0 10px;
+}
+.lan{
+    margin: 50px 0 0 150px;
+}
+.lan2{
+    background-color: rgba(65, 64, 64,0.44) ;
+}
+.copy-right{
+    height: 60px;
+    background-color: rgb(32, 32, 32);
+    margin:40px 0 0 0;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
